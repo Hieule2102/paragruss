@@ -912,9 +912,8 @@ a:hover {
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
   margin-bottom: 1rem;
-  font-size: 0.9rem;
+  font-size: 1.3em !important;
   color: #ffffff;
-  letter-spacing: 0.05em;
 }
 
 .intro .intro-title {
