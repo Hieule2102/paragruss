@@ -716,7 +716,7 @@ a:hover {
   top: 10px;
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
@@ -731,7 +731,7 @@ a:hover {
   top: 10px;
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
-  opacity: 0.9;
+  opacity: 1;
 }
 
 /*======================================
@@ -1650,7 +1650,6 @@ footer .credits {
 
 #mat-bang .info {
   background-color: #ebf5df;
-  height: 500px;
 }
 
 #mat-bang .info h3 {
@@ -1663,7 +1662,7 @@ footer .credits {
 }
 
 #mat-bang .info .text p {
-  font-size: 18px;
+  font-size: 1em;
 }
 
 #tien-ich .section {
@@ -1699,7 +1698,7 @@ footer .credits {
   color: white;
   top: 10px;
   right: 5px;
-  width: 30%;
+  width: 32%;
 }
 
 #nha-mau {
@@ -1741,6 +1740,19 @@ footer .credits {
   height: 600px;
 }
 
+#phat-trien-du-an .img img{
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#lien-he .send{
+  background-color: #72195a !important;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.8rem !important;
+}
+
 @media (max-width: 768px) {
   #tien-do iframe {
     height: 400px;
@@ -1759,6 +1771,12 @@ footer .credits {
   }
   #vi-tri .ban-do{
     display: none;
+  }
+  #gioi-thieu p{
+    font-size: .9em;
+  }
+  #vi-tri h6 {
+    font-size: .9em;
   }
 }
 
