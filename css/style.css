@@ -632,10 +632,6 @@ a:hover {
   color: #000000;
 }
 
-.navbar-default.navbar-reduce .navbar-brand {
-  color: #000000;
-}
-
 .navbar-default .dropdown .dropdown-menu {
   border-top: 0;
   border-left: 4px solid #72195a;
@@ -1678,7 +1674,7 @@ footer .credits {
   font-weight: 500;
   background-color: rgba(94, 84, 142, 0.56);
   color: white;
-  bottom: 5px;
+  bottom: .2rem;
   text-align: center;
   width: 70%;
   margin-left: 16%;
@@ -1696,8 +1692,8 @@ footer .credits {
   font-weight: 500;
   background-color: rgba(94, 84, 142, 0.56);
   color: white;
-  top: 10px;
-  right: 5px;
+  top: .8rem;
+  right: .2rem;
   width: 32%;
 }
 
@@ -1876,6 +1872,7 @@ footer .credits {
   .intro .intro-title span {
     font-family: 'Lobster', cursive;
     color: #8ac4ff;
+    text-transform: capitalize;
   }
 
   .intro .intro-subtitle {
