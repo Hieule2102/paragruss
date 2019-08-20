@@ -1753,6 +1753,10 @@ footer .credits {
   padding: 0.7rem 1.8rem !important;
 }
 
+#lien-he .info i {
+  color: #8ac4ff !important;
+}
+
 @media (max-width: 768px) {
   #tien-do iframe {
     height: 400px;
@@ -1763,7 +1767,6 @@ footer .credits {
     font-weight: 400;
     line-height: 1.4em;
     max-height: 300px;
-    width: 48%;
   }
   #tien-ich .section h6 {
     font-size: 0.6em;
@@ -2171,4 +2174,22 @@ footer .credits {
   .box-collapse .title-box-d .title-d {
     font-size: 1.3rem;
   }
+}
+
+.music {
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #72195a;
+}
+
+embed {
+  position: absolute;
+  bottom: -5px;
+  left: -4px;
 }
