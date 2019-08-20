@@ -511,10 +511,8 @@ a:hover {
   backface-visibility: hidden;
   box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
 }
-
-.navbar-default .nav-search {
-  color: #000000;
-  font-size: 1.5rem;
+.navbar-brand img {
+  height: 70px;
 }
 
 .navbar-default.navbar-reduce {
