@@ -38,7 +38,7 @@
 
   /*--/ ScrollReveal /Easy scroll animations for web and mobile browsers /--*/
   window.sr = ScrollReveal();
-  sr.reveal('.foo', { duration: 1000, delay: 15 });
+  sr.reveal('.foo', { duration: 1000, delay: 10 });
 
   /*--/ Carousel owl /--*/
   $('#carousel').owlCarousel({
@@ -51,7 +51,7 @@
       '<i class="ion-ios-arrow-forward" aria-hidden="true"></i>'
     ],
     autoplay: true,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 2500,
     autoplayHoverPause: true
   });
 
@@ -173,7 +173,7 @@
       '<i class="ion-ios-arrow-back" aria-hidden="true"></i>',
       '<i class="ion-ios-arrow-forward" aria-hidden="true"></i>'
     ],
-    autoplayTimeout: 4000,
+    autoplayTimeout: 3000,
     autoplayHoverPause: true,
     responsive: {
       0: {
